@@ -1,0 +1,73 @@
+body {
+  animation: colorchange 120s infinite ease;
+  -webkit-animation: colorchange 120s infinite ease;
+}
+
+#weather {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+  width: 300px;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  margin: 50px auto;
+	border-radius: 5px;
+  animation: textchange 120s infinite ease;
+  -webkit-animation: textchange 120s infinite ease;
+}
+
+.initialize {
+  text-transform: capitalize;
+}
+
+#weather img {
+  margin-top: 10px;
+  border-radius: 50%;
+  animation: colorchange 120s infinite ease;
+  -webkit-animation: colorchange 120s infinite ease;
+}
+
+.line {
+  height: 2px;
+  width: 100% + 20px;
+  margin: 20px -20px 20px;
+  animation: colorchange 120s infinite ease;
+  -webkit-animation: colorchange 120s infinite ease;
+}
+
+.no-display {
+  display: none;
+}
+
+@keyframes colorchange {
+  0%   {background: #CF5757;}
+  25%  {background: #C1CF57;}
+  50%  {background: #5773CF;}
+  75%  {background: #57CF83;}
+  100% {background: #CF5757;}
+}
+
+@-webkit-keyframes colorchange {
+  0%   {background: #CF5757;}
+  25%  {background: #C1CF57;}
+  50%  {background: #5773CF;}
+  75%  {background: #57CF83;}
+  100% {background: #CF5757;}
+}
+
+@keyframes textchange {
+  0%   {color: #CF5757;}
+  25%  {color: #C1CF57;}
+  50%  {color: #5773CF;}
+  75%  {color: #57CF83;}
+  100% {color: #CF5757;}
+}
+
+@-webkit-keyframes textchange {
+  0%   {color: #CF5757;}
+  25%  {color: #C1CF57;}
+  50%  {color: #5773CF;}
+  75%  {color: #57CF83;}
+  100% {color: #CF5757;}
+}
